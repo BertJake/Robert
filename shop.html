@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+      <div id="header">
+        <div class="header-list">
+          <nav class="header-list-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a class="active" href="shop.html">Shop</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+	
+	<section class="product-section">
+        <h1>Featured Products</h1>
+        <p>Honkai Star Rail Figurines</p>
+		<div class="product-section">
+        <div class="pro-collection">
+          <div class="product-cart">
+			<div class="item" data-id="1">
+				<img src="stelle.jpg"/>
+				<span>Stelle</span>
+				<h4>Stelle Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  <div class="product-cart">
+			<div class="item" data-id="2">
+				<img src="caelus.jpg"/>
+				<span>Caelus</span>
+				<h4>Caelus Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  <div class="product-cart">
+			<div class="item" data-id="3">
+				<img src="danheng.jpg"/>
+				<span>Dan Heng</span>
+				<h4>Dan Heng Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  <div class="product-cart">
+			<div class="item" data-id="4">
+				<img src="herta.jpg"/>
+				<span>Herta</span>
+				<h4>Herta Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  <div class="product-cart">
+			<div class="item" data-id="5">
+				<img src="seele.jpg"/>
+				<span>Seele</span>
+				<h4>Seele Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  <div class="product-cart">
+			<div class="item" data-id="6">
+				<img src="bronya.jpg"/>
+				<span>Bronya</span>
+				<h4>Bronya Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  <div class="product-cart">
+			<div class="item" data-id="7">
+				<img src="luocha.jpg"/>
+				<span>Luocha</span>
+				<h4>Luocha Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  <div class="product-cart">
+			<div class="item" data-id="8">
+				<img src="jingyuan.jpg"/>
+				<span>Jing Yuan</span>
+				<h4>Jing Yuan Chibi Figure</h4>
+				<h4 class="price">₱500</h4>
+				<button class="addCart">Add to Cart</button>
+			</div>
+          </div>
+		  </div>
+		</div>
+      </section>
+	
+	<div class="icon-cart">
+		<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+		</svg>
+	</div>
+	
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">           
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut" onclick="checkout()">Check Out</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

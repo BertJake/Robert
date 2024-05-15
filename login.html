@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="backgroundd">
+    <header>
+      <div id="header">
+        <div class="header-list">
+          <nav class="header-list-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a class="active" href="login.html">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+	<main>
+	<div class="form">
+        <h1>LOGIN HERE</h1>
+        <p>Username :</p>
+        <input type="text" placeholder="Name Here" id="name">
+        <p>Password :</p>
+        <input type="password" placeholder="Password Here" id="pass">
+        <input type="checkbox" id="showPasswordCheckbox" class="checkbox" onclick="showpasslogin()">
+		<label for="showPasswordCheckbox" class="checkbox-label">Show Password</label>
+		<input type="submit" value="LOGIN" class="login" onclick="validate()">
+        <a href="register.html" style="color: white">Register Here</a>
+    </div>
+	</main>
+	
+	  <script src="script.js"></script>
+  </body>
+</html>
