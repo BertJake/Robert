@@ -136,7 +136,7 @@ svg{
     grid-template-rows: 70px 1fr 70px;
     transition: .5s;
 	z-index: 999;
-	background-image: url("Background.jpg");
+	background-image: url("background.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
 }
